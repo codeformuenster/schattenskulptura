@@ -10,13 +10,16 @@ const Navbar = () => (
       <div className="navbar-brand">
         <Link to="/" className="navbar-item">
           <figure className="image">
-            <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
+            <img src={logo} alt="Schattenskulptura" style={{ width: '88px' }} />
           </figure>
         </Link>
       </div>
       <div className="navbar-start">
-        <Link className="navbar-item" to="/about">
-          About
+        <Link className="navbar-item" to="/hintergrund">
+          Hintergrund
+        </Link>
+        <Link className="navbar-item" to="/impressum">
+          Impressum
         </Link>
         <Link className="navbar-item" to="/products">
           Products
